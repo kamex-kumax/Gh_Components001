@@ -8,8 +8,8 @@
     <ProjectGuid>{DBA61691-7670-49E2-823C-6200394DACB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Gh_Components001</RootNamespace>
-    <AssemblyName>Gh_Components001</AssemblyName>
+    <RootNamespace>RecordData</RootNamespace>
+    <AssemblyName>RecordData</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>false</IsWebBootstrapper>
@@ -62,8 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GhComponents001Component.cs" />
-    <Compile Include="Gh_Components001Info.cs" />
+    <Compile Include="RecordDataComponent.cs" />
+    <Compile Include="RecordData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

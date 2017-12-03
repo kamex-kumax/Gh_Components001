@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 
-namespace Gh_Components001
+namespace RecordData
 {
-    public class GhComponents001Component : GH_Component
+    public class RecordDataComponent : GH_Component
     {
         /// <summary>
         /// Each implementation of GH_Component must provide a public 
@@ -15,10 +15,10 @@ namespace Gh_Components001
         /// Subcategory the panel. If you use non-existing tab or panel names, 
         /// new tabs/panels will automatically be created.
         /// </summary>
-        public GhComponents001Component()
+        public RecordDataComponent()
           : base("RecordData", "Rec",
-              "Construct an Archimedean, or arithmetic, spiral given its radii and number of turns.",
-              "Archi-Informatics", "Util")
+              "This component just record some data you want to record temporary. Only that. It's developed by Archi-Informatics inc.",
+              "Archi-Informatics Inc.", "Util")
         {
         }
 

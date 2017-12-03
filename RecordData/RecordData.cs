@@ -2,15 +2,15 @@
 using System.Drawing;
 using Grasshopper.Kernel;
 
-namespace Gh_Components001
+namespace RecordData
 {
-    public class Gh_Components001Info : GH_AssemblyInfo
+    public class RecordData : GH_AssemblyInfo
     {
         public override string Name
         {
             get
             {
-                return "GhComponents001";
+                return "RecordData";
             }
         }
         public override Bitmap Icon
@@ -42,7 +42,7 @@ namespace Gh_Components001
             get
             {
                 //Return a string identifying you or your company.
-                return "";
+                return "Archi-Informatics.";
             }
         }
         public override string AuthorContact
