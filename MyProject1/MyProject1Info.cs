@@ -2,15 +2,15 @@
 using System.Drawing;
 using Grasshopper.Kernel;
 
-namespace RecordData
+namespace MyProject1
 {
-    public class RecordData : GH_AssemblyInfo
+    public class MyProject1Info : GH_AssemblyInfo
     {
         public override string Name
         {
             get
             {
-                return "RecordData";
+                return "MyProject1";
             }
         }
         public override Bitmap Icon
@@ -33,7 +33,7 @@ namespace RecordData
         {
             get
             {
-                return new Guid("7015599f-0e75-4267-8c86-a871e1bf89df");
+                return new Guid("3043c04d-11fb-49b4-a6eb-18ecad7a2585");
             }
         }
 
@@ -42,7 +42,7 @@ namespace RecordData
             get
             {
                 //Return a string identifying you or your company.
-                return "Archi-Informatics incs";
+                return "";
             }
         }
         public override string AuthorContact
@@ -50,7 +50,7 @@ namespace RecordData
             get
             {
                 //Return a string representing your preferred contact details.
-                return "mail@u1abe.com";
+                return "";
             }
         }
     }
